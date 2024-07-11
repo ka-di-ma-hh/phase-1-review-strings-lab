@@ -1,16 +1,7 @@
-
-var  currentUser = "Grace Hopper"
-
-var welcomeMessage = "Welcome to Flatbook!"
-
-// let currentUser = "Grace Hopper"
-
-  var welcomeMessage = "Grace Hopper!"
-  var welcomeMessage = "Welcome to Flatbook, Grace Hopper!"
-
- var excitedWelcomeMessage = "Grace Hopper!"
- var excitedWelcomeMessage = 'WELCOME TO FLATBOOK, '
- var excitedWelcomeMessage = 'WELCOME TO FLATBOOK, GRACE HOPPER!'
- let shortGreeting = 'Welcome, Grace!'
- 
+// Write your code in this file!
+const currentUser = "Grace Hopper";
+const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
+const excitedWelcomeMessage = welcomeMessage.toUpperCase();
+const shortGreeting = `Welcome, ${currentUser[0]}!`;
+console.log(shortGreeting);  
 
